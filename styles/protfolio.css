@@ -171,3 +171,36 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #fff5f5;
+    margin-top: 800px;
+    padding: 50px 100px;
+
+}
+.footer-column{
+    width: 50%;
+
+}
+.social-links a{
+    margin-right: 25px;
+
+}
+ .contact input,  textarea{
+    display: block;
+    margin-bottom: 35px;
+    padding: 18px 35px;
+    color: #ff380b;
+    border-radius: 5px;
+    background: #c1bdb9;
+    border: 0;
+    width:300px;
+}
+.contact input{
+
+}
+.copy{
+    text-align: center;
+}
