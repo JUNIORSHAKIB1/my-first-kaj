@@ -102,6 +102,9 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
 /* abut section style */
 .about{
     padding: 130px;
@@ -113,9 +116,58 @@ main{
     display: flex;
     justify-content: space-around;
 }
-.abotu-info{
+.about-info{
     text-align: center;
 }
+
+/* skill related style */
+
 #what-i-do-description{
     padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap:24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff5f5;
+
+    box-shadow: 0px 6px 50px 0px rgba(148, 146, 146, 0.06);
+    
+}
+.skill-description{
+    color: #080606;
+    
+}
+/* Resume section style */
+.resume-column-title{
+    color: #757575;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-continer{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-institute, .resume-item-description{
+    color: #656464;
+}
+.resume-container hr{
+    margin:30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
